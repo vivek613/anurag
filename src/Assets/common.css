@@ -1,11 +1,15 @@
 .main-div {
-  background: linear-gradient(to left, green, white);
+  background-image: url("./bg.jpg");
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  color: white;
-  height: 100vh;
-  width: 100vw;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100vw;
 }
 .bet-main-div {
   display: block;
@@ -66,7 +70,7 @@ body {
   height: 50px;
   border-radius: 50%;
   z-index: 9;
-  background: #4aba70;
+  background: #57b7e4;
   padding: 10px;
   box-shadow: 0px 2px 2px rgb(0 0 0 / 10%);
 }
@@ -88,13 +92,13 @@ body {
   right: 15px;
 }
 .login-form .btn {
-  background: #4aba70;
+  background: #57b7e4;
   border: none;
   line-height: normal;
 }
 .login-form .btn:hover,
 .login-form .btn:focus {
-  background: #42ae68;
+  background: #57b7e4;
 }
 .login-form .checkbox-inline {
   float: left;
